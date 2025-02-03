@@ -123,7 +123,7 @@ elif st.session_state.page == "Dashboard":
     uploaded_image = st.file_uploader("Choose an image file", type=["jpg", "jpeg", "png"])
 
     if uploaded_image:
-        st.image(uploaded_image, caption="Uploaded Image", use_column_width=True)
+        st.image(uploaded_image, caption="Uploaded Image", use_container_width=True)
         st.success("Image uploaded successfully!")
 
         # Detect Forgery Button
