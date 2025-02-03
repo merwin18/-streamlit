@@ -97,17 +97,7 @@ if st.session_state.page == "Home":
     st.write("Your go-to platfoam for Image Forgery Detection and Localisation.")
     
     # Background image
-    st.markdown("""
-    <style>
-        /* Set the background image */
-        body {
-            background-image: url("background.jpg");
-            background-size: cover; /* Makes sure the image covers the whole page */
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-    </style>
-""", unsafe_allow_html=True)
+  
      
     # Explore Now button
     if st.button("🚀 Explore Now"):
